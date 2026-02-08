@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Любимой маме и сестре</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Моей любимой маме и сестре</h1>
+    <p>Сайт, созданный с любовью 💖</p>
+</header>
+
+<div class="container">
+
+    <section class="block">
+        <h2>Для самых важных людей</h2>
+        <p class="text">
+            Этот сайт посвящён двум самым близким людям в моей жизни –  
+            моей маме и сестре. Спасибо вам за всё!
+        </p>
+    </section>
+
+    <section class="block">
+        <h2>О вас</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="images/mom.png" alt="Мама">
+                <h3>Мама</h3>
+                <p>
+                    Самая добрая, нежная и заботливая.  
+                    Человек, который всегда рядом и поддержит в любой момент.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="images/sistres.png" alt="Сестра">
+                <h3>Сестра</h3>
+                <p>
+                    Лучшая подруга, поддержка и самый весёлый человек в мире.  
+                    С тобой никогда не бывает скучно!
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="block">
+        <h2>Галерея воспоминаний</h2>
+
+        <div class="gallery">
+            <img src="images/photo.png" alt="Фото 1">
+            <img src="images/photo1.png" alt="Фото 2">
+        </div>
+    </section>
+
+    <section class="block">
+        <h2>Небольшой сюрприз</h2>
+
+        <button onclick="showLove()">Нажми на меня</button>
+
+        <p id="message" class="message"></p>
+    </section>
+
+</div>
+
+<footer>
+    Сделано с огромной любовью ❤️
+</footer>
+
+<script>
+function showLove() {
+    document.getElementById("message").innerHTML =
+    "Спасибо вам за всё! Я очень сильно вас люблю! 💕";
+}
+</script>
+
+</body>
+</html>
